@@ -10,7 +10,7 @@ public class City {
         return id;
     }
 
-    public void setId(String s, int id) {
+    public void setId(int id) {
         this.id = id;
     }
 
@@ -26,7 +26,7 @@ public class City {
         return cityCode;
     }
 
-    public void setCityCode(String city_code, String cityCode) {
+    public void setCityCode(String cityCode) {
         this.cityCode = cityCode;
     }
 
@@ -34,7 +34,9 @@ public class City {
         return cityName;
     }
 
-    public void setCityName(String city_name, String cityName) {
+    public void setCityName(String cityName) {
         this.cityName = cityName;
     }
+
+
 }
